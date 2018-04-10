@@ -1,0 +1,8 @@
+what are my jobs for [jobDate:snips/datetime](today)
+what are my jobs for [jobDate:snips/datetime](tomorrow)
+what are my jobs for [jobDate:snips/datetime](this week)
+what are my jobs for [jobDate:snips/datetime](next week)
+what jobs do i have in [jobLocation:location](New york) for [jobDate:snips/datetime](today)
+what jobs do i have in [jobLocation:location](Paris) for [jobDate:snips/datetime](next week)
+Show my jobs for [jobDate:snips/datetime](next week) in [jobLocation:location](Los Angeles)
+my jobs in [jobLocation:location](Paris) for [jobDate:snips/datetime](this week)

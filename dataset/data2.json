@@ -1,0 +1,144 @@
+{
+  "intents": {
+    "getJobs": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "show my jobs for "
+            },
+            {
+              "text": "los angeles",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "this weekend",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What jobs do I have "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "text": "rio de janeiro",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " ? "
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Do I have any jobs in "
+            },
+            {
+              "text": "Tokyo",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "at the end of the day",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What jobs do I have in "
+            },
+            {
+              "text": "London",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "tomorrow morning",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me my jobs for "
+            },
+            {
+              "text": "this afternoon",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "text": "tel aviv",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": ", please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what jobs do i have in "
+            },
+            {
+              "text": "Paris",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "entities": {
+    "location": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true
+    },
+    "snips/datetime": {}
+  },
+  "language": "en"
+}

@@ -1,0 +1,475 @@
+{
+  "intents": {
+    "getJobs": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "show my jobs for "
+            },
+            {
+              "text": "los angeles",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "this weekend",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What jobs do I have "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "text": "rio de janeiro",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " ? "
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Do I have any jobs in "
+            },
+            {
+              "text": "Tokyo",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "at the end of the day",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What jobs do I have in "
+            },
+            {
+              "text": "London",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": ", "
+            },
+            {
+              "text": "tomorrow morning",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Show me my jobs for "
+            },
+            {
+              "text": "this afternoon",
+              "entity": "snips/datetime",
+              "slot_name": "jobDate"
+            },
+            {
+              "text": " in "
+            },
+            {
+              "text": "tel aviv",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": ", please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what jobs do i have in "
+            },
+            {
+              "text": "Paris",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "createAbsence":{
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "create an absence for "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "text": "los angeles",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out for "
+            },
+            {
+              "text": "this week",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "text": "los angeles",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out "
+            },
+            {
+              "text": "today morning",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "text": "rio de janeiro",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out "
+            },
+            {
+              "text": "next week",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out "
+            },
+            {
+              "text": "tomorrow",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "text": "a week",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out "
+            },
+            {
+              "text": "tomorrow",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "text": "a week",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            },
+            {
+              "text": " at "
+            },
+            {
+              "text": "rio de janeiro",
+              "entity": "location",
+              "slot_name": "jobLocation"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "create an absence for "
+            },
+            {
+              "text": "2 days",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am "
+            },
+            {
+              "text": "out sick",
+              "entity": "reason",
+              "slot_name": "absReason"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be on "
+            },
+            {
+              "text": "vacation",
+              "entity": "reason",
+              "slot_name": "absReason"
+            },
+            {
+              "text": " during "
+            },
+            {
+              "text": "this week",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be on "
+            },
+            {
+              "text": "vacation",
+              "entity": "reason",
+              "slot_name": "absReason"
+            },
+            {
+              "text": " from "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "text": "a week",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I am "
+            },
+            {
+              "text": "out sick",
+              "entity": "reason",
+              "slot_name": "absReason"
+            },
+            {
+              "text": " "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Patricia",
+              "entity": "substitute",
+              "slot_name": "absSub"
+            },
+            {
+              "text": " will be my substitute "
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "text": "5 days",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            },
+            {
+              "text": " starting "
+            },
+            {
+              "text": "today",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "text": "Patricia",
+              "entity": "substitute",
+              "slot_name": "absSub"
+            },
+            {
+              "text": " will be my substitute "
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "I will be out"
+            },
+            {
+              "text": " for "
+            },
+            {
+              "text": "3 days",
+              "entity": "snips/duration",
+              "slot_name": "absDuration"
+            },
+            {
+              "text": " starting "
+            },
+            {
+              "text": "tomorrow",
+              "entity": "snips/datetime",
+              "slot_name": "absDate"
+            },
+            {
+              "text": " and I want "
+            },
+            {
+              "text": "Joseph",
+              "entity": "substitute",
+              "slot_name": "absSub"
+            },
+            {
+              "text": " to be my substitute "
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "entities": {
+    "location": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true
+    },
+    "reason": {
+      "data": [
+        {
+          "value": "sick",
+          "synonyms": [
+            "unwell",
+            "out sick",
+            "not feeling well",
+            "ill"
+          ]
+        },
+        {
+          "value": "vacation",
+          "synonyms": [
+            "time off",
+            "holiday"
+          ]
+        }
+      ],
+      "use_synonyms": true,
+      "automatically_extensible": true
+    },
+    "substitute": {
+      "data": [],
+      "use_synonyms": true,
+      "automatically_extensible": true
+    },
+    "snips/datetime": {},
+    "snips/duration": {}
+  },
+  "language": "en"
+}
